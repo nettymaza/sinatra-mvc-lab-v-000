@@ -8,7 +8,7 @@ class Piglatinizer
     vowels = %w[a e i o u A E I O U]
     consonants = alphabet - vowels
 
-
+    binding.pry
 
   end
 end
