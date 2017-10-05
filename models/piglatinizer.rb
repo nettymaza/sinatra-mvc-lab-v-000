@@ -15,7 +15,7 @@ class Piglatinizer
     elsif consonants.include?(word[0])
       word[1..-1] + word[0] + 'ay'
     else
-       word
+      word
     end
 
     binding.pry
