@@ -9,6 +9,7 @@ class Piglatinizer
     consonants = alphabet - vowels
 
     if vowels.include?(word[0])
+    end
 
     binding.pry
 
