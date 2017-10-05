@@ -1,0 +1,2 @@
+class Piglatinize
+end
