@@ -8,11 +8,6 @@ class Piglatinizer
     consonants = alphabet - vowels
     binding.pry
 
-    if vowels.include?(word[0])
-      word + "way"
-    elsif
-
-
 
   end
 end
