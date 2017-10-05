@@ -9,6 +9,8 @@ class Piglatinizer
     consonants = alphabet - vowels
 
     if vowels.include?(word[0])
+      word << "way"
+    elsif consonants.include?(word[0]) && consonants.include?(word[1])
     end
 
     binding.pry
