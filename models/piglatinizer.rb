@@ -1,3 +1,5 @@
+require 'pry'
+
 class Piglatinizer
 
   def piglatinize(word)
