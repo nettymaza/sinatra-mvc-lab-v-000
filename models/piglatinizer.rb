@@ -1,5 +1,6 @@
 require 'pry'
-require "awesome_print"
+require 'awesome_print'
+
 class Piglatinizer
 
   def piglatinize(word)
