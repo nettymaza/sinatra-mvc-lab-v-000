@@ -14,6 +14,5 @@ class Piglatinizer
       word + consonants + 'ay'
     end
 
-
   end
 end
