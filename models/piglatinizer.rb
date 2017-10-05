@@ -3,7 +3,7 @@ require 'awesome_print'
 
 class Piglatinizer
 
-  def piglatinize(word)
+  def piglatinize(phrase)
 
     alphabet = ('a'..'z').to_a
     vowels = %w[a e i o u A E I O U]
