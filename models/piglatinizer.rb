@@ -13,6 +13,7 @@ class Piglatinizer
       end
       word + consonants + 'ay'
     end
+    binding.pry
 
   end
 end
