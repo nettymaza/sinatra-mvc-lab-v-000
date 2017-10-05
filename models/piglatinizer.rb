@@ -3,12 +3,12 @@ require 'awesome_print'
 
 class Piglatinizer
 
-  def piglatinize(phrase)
+  def piglatinize(word)
     alphabet = ('a'..'z').to_a
     vowels = %w[a e i o u A E I O U]
     consonants = alphabet - vowels
 
-    if vowels.include?(phrase[0])
+    if vowels.include?(word[0])
     end
 
     binding.pry
