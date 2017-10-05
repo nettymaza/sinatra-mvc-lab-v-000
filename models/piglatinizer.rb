@@ -5,7 +5,6 @@ class Piglatinizer
 
     if vowels.include?(word[0])
       word << 'ay'
-    elsif
     else
       consonants = ""
       while !vowels.include?(word[0])
@@ -14,7 +13,7 @@ class Piglatinizer
       end
       word + consonants + 'ay'
     end
-    
+
 
   end
 end
