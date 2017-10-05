@@ -18,7 +18,7 @@ class Piglatinizer
       word
     end
 
-    binding.pry
+  
 
   end
 end
