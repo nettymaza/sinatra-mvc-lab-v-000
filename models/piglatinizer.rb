@@ -6,7 +6,7 @@ class Piglatinizer
     vowels = %w[a e i o u A E I O U]
 
     if vowels.include?(word[0])
-      word << 'ay'
+      word + "way"
     else
       consonants = ""
       while !vowels.include?(word[0])
