@@ -6,6 +6,7 @@ class App < Sinatra::Base
   end
 
   post '/piglatinize' do
+    pig = Piglatinizer.new
     
   end
 
